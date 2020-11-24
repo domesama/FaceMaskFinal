@@ -9,7 +9,7 @@ import numpy as np
 faceCascade = cv2.CascadeClassifier("C:/Users/THETHAWATKONGYU/Desktop/GitHub Repositories/FaceMaskFinal/haarcascade_frontalface_default.xml")
 model = load_model("C:/Users/THETHAWATKONGYU/Desktop/GitHub Repositories/FaceMaskFinal/mask_recog_ver1.h5")
  
-#Asks open CP to look for a webcam at position (0) if there's more we can use the index (1)
+#Asks OpenCV to look for a webcam at position (0) if there's more we can use the index (1)
 video_capture = cv2.VideoCapture(0)
 while True:
     # Capture frame-by-frame
